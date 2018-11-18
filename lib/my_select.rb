@@ -1,9 +1,9 @@
 def my_select(collection)
  i=0
  arr2 = []
- while i<array.length
-  if yield(array[i]) == true
-    arr2 << array[i]
+ while i<collection.length
+  if yield(collection[i]) == true
+    arr2 << collection[i]
   end
   i+=1
  end
